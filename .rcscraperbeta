@@ -1,4 +1,3 @@
-#!/bin/bash
 URI="https://google.com"
 URL=$(echo "$URI" |sed "s/$/\//g"|sed "s/\/\/$//g" |sed "s/$/\//g" |sed "s/\/\/$//g" |sed "s/\/\/$//g" |sed "s|/$||g" |sed "s|$|/|g")
 
