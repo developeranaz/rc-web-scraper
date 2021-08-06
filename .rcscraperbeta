@@ -1,4 +1,10 @@
+# Flags
+while getopts :u:h aflag; do
+        case $aflag in
+                u) URI=$OPTARG;;
+                h) help=$(echo "USAGE /n rcscraper -u 'https://scrap.url' ");;
 URI="https://google.com"
 URL=$(echo "$URI" |sed "s/$/\//g"|sed "s/\/\/$//g" |sed "s/$/\//g" |sed "s/\/\/$//g" |sed "s/\/\/$//g" |sed "s|/$||g" |sed "s|$|/|g")
-#--flag
+
+
 curl -s $URL |sed 's/>/\n/g'|sed 's/</\n/g' |grep 'a href=' | sed '/""\|href="?sort\|".."\|"..\/"/d' |sed 's/"//g'|sed "s|a href=|$URL|g" |sed "/\/$/d"
