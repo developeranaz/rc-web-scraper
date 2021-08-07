@@ -3,6 +3,8 @@ while getopts :u:h aflag; do
         case $aflag in
                 u) URI=$OPTARG;;
                 h) help=$(echo "USAGE /n rcscraper -u 'https://scrap.url' ");;
+        esac
+done
 URI="https://google.com"
 URL=$(echo "$URI" |sed "s/$/\//g"|sed "s/\/\/$//g" |sed "s/$/\//g" |sed "s/\/\/$//g" |sed "s/\/\/$//g" |sed "s|/$||g" |sed "s|$|/|g")
 
