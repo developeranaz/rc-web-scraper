@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author : AnaZ
+# GITHUB : https://github.com/developeranaz
+# ORGIN  : https://github.com/developeranaz/rc-web-scraper
 #!$PREFIX/bash
 while getopts :u:h aflag; do
         case $aflag in
