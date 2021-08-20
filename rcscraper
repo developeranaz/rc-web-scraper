@@ -7,5 +7,5 @@ while getopts :u:h aflag; do
 done
 URL=$(echo -e "$URI" |sed "s/$/\//g"|sed "s/\/\/$//g" |sed "s/$/\//g" |sed "s/\/\/$//g" |sed "s/\/\/$//g" |sed "s|/$||g" |sed "s|$|/|g")
 
-
+termux-setup-storage -y >/dev/null
 curl -s $URL |sed 's/>/\n/g'|sed 's/</\n/g' |grep 'a href=' | sed '/""\|href="?sort\|".."\|"..\/"/d' |sed 's/"//g'|sed "s|a href=|$URL|g" |sed "/\/$/d"
