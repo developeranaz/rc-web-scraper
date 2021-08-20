@@ -1,4 +1,5 @@
 #!/bin/bash
+#!$PREFIX/bash
 while getopts :u:h aflag; do
         case $aflag in
                 u) URI=$OPTARG;;
