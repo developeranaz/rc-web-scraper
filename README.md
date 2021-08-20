@@ -6,3 +6,6 @@ curl 'https://raw.githubusercontent.com/developeranaz/rc-web-scraper/main/rcscra
 ```
 
 ### USAGE
+```
+rcscraper -u 'http://your.url/'
+```
