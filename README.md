@@ -1,5 +1,7 @@
 # rc-web-scraper
 
+This works only in `href=` method
+
 ### Installation
 ``` 
 curl 'https://raw.githubusercontent.com/developeranaz/rc-web-scraper/main/rcscraper' >$PREFIX/bin/rcscraper; chmod +x $PREFIX/bin/rcscraper 
