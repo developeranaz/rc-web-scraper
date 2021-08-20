@@ -1,6 +1,6 @@
 # rc-web-scraper
 
-This works only in `href=` method
+This works only in `href` method
 
 ### Installation
 ``` 
