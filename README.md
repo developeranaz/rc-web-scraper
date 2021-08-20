@@ -14,5 +14,5 @@ rcscraper -u 'http://your.url/'
 This would send all scrapped links to a txt file
 
 ```
-rcscraper -u 'http://url' >/storage/emulated/0/urls.txt
+rcscraper -u 'http://url' >/storage/emulated/0/urls.txt; echo "file copied to /storage/emulated/0/urls.txt"
 ```
