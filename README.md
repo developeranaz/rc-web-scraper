@@ -1,6 +1,8 @@
 # rc-web-scraper
-for rclone index
 
+### Installation
 ``` 
 curl 'https://raw.githubusercontent.com/developeranaz/rc-web-scraper/main/rcscraper' >$PREFIX/bin/rcscraper; chmod +x $PREFIX/bin/rcscraper 
 ```
+
+### USAGE
