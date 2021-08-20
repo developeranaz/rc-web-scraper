@@ -5,7 +5,8 @@ or
 RC-index websites
 
 
-### Installation (TERMUX on Android F-droid version & Linux/Unix)
+### Installation 
+TERMUX on Android F-droid version & Linux/Unix
 ``` 
 curl 'https://raw.githubusercontent.com/developeranaz/rc-web-scraper/main/rcscraper' >$PREFIX/bin/rcscraper; chmod +x $PREFIX/bin/rcscraper 
 ```
