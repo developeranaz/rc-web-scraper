@@ -6,6 +6,13 @@ curl 'https://raw.githubusercontent.com/developeranaz/rc-web-scraper/main/rcscra
 ```
 
 ### USAGE
+This print all url in terminal
 ```
 rcscraper -u 'http://your.url/'
+```
+
+This would send all scrapped links to a txt file
+
+```
+rcscraper -u 'http://url' >/storage/emulated/0/urls.txt
 ```
