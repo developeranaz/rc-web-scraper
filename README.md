@@ -1,6 +1,9 @@
 # rc-web-scraper
 
 This works only in `href` method
+or
+RC-index websites
+
 
 ### Installation
 ``` 
